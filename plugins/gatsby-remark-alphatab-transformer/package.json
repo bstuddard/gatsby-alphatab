@@ -1,0 +1,10 @@
+{
+    "name": "gatsby-remark-alphatab-transformer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Barrett Studdard",
+    "license": "MIT",
+    "dependencies": {
+        "unist-util-visit": "^2.0.3"
+    }
+}

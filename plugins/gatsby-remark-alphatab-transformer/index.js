@@ -12,7 +12,7 @@ module.exports = ({ markdownAST }) => {
             node.type = "html";
             node.value = `
                 <div class="alphaTabWrapper" id="wrapper-${simpleFilename}">
-                    <button class="playPauseButton" onclick="document.getElementById('${simpleFilename}').alphaTabApi.playPause()">Play/Pause</button>
+                    <button class="playPauseButton at-button" onclick="document.getElementById('${simpleFilename}').alphaTabApi.playPause()">Play/Pause</button>
                     <div id="${simpleFilename}" class="alphaTab" data-file="${filename}" data-soundfont="${filenameSoundfont}"></div>
                 </div>
             `;

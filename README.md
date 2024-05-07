@@ -2,7 +2,7 @@
 Example of custom gatsby remark plugin that renders alphatab guitar pro and sf2 files. 
 
 # Overview
-Using gatsby lumen, extending out to alphatab with a custom markdwon plugin. 
+Using gatsby lumen, extending out to alphatab with a custom markdown plugin. 
 
 Steps:
 
